@@ -9,6 +9,7 @@
 :root {
   --ff-primary: 'Oswald', sans-serif;
   --ff-secondary: 'Coda Caption';
+  --ff-title: Rampart One;
 
   --fw-reg: 300;
   --fw-bold: 900;
@@ -290,6 +291,15 @@ header {
 a {
   text-decoration: none;
 }
+.title1 {
+  font-family: var(--ff-title);
+}
+
+.slogan1 {
+  text-align: center;
+  color: #111;
+}
+
 .slogan {
   color: rgb(245, 169, 6);
   text-align: center;
@@ -321,7 +331,7 @@ a {
 }
 .btn-1 {
   display: inline-block;
-  background: rgb(194, 117, 3);
+  background: rgb(218, 56, 7);
   color: white;
   padding: 8px 30px;
   margin: 30px 0;
@@ -450,6 +460,7 @@ a {
 
 .title {
   text-align: center;
+  font-family: var(--ff-title);
   margin: 0 auto 80px;
   position: relative;
   line-height: 60px;
