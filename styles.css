@@ -305,7 +305,7 @@ a {
   text-align: center;
 }
 .container {
-  max-width: 1300px;
+  max-width: 6000px;
   margin: 0;
   padding-left: 25px;
   padding-right: 25px;
@@ -429,7 +429,7 @@ a {
 }
 
 .col1 img {
-  width: 70%;
+  width: 90%;
 }
 
 .small-container {
@@ -623,4 +623,13 @@ h4 {
   .feature-discription {
     margin-left: 2em;
   } 
+}
+.special-offer {
+  background: radial-gradient( #faf896, rgb(7, 167, 207));
+}
+
+.special-offer img {
+  border-radius: 10%;
+  margin-top: 25px;
+  margin-bottom: 25px
 }
