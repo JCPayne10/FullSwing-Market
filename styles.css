@@ -626,10 +626,60 @@ h4 {
 }
 .special-offer {
   background: radial-gradient( #faf896, rgb(7, 167, 207));
+  margin-top: 50px;
+  padding: 30px 0px;
 }
 
 .special-offer img {
-  border-radius: 10%;
-  margin-top: 25px;
-  margin-bottom: 25px
+  border-radius: 40%;
+  padding: 40px;
+}
+
+small { 
+  color:#555;
+}
+
+.testimonial{
+  padding-top: 0;
+  padding-bottom: 25px;
+}
+
+.testimonial .col-3 {
+  text-align: center;
+  flex-basis: 30%;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0 rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.8s;
+}
+
+.testimonial .col-3 img {
+  width: 80px;
+  margin-top: 20px;
+  border-radius: 50%;
+}
+
+.testimonial .col-3:hover {
+  transform: translateX(-10px);
+}
+.fa.fa-quote-left {
+  font-size: 34px;
+  color: rgb(7, 167, 207);
+}
+
+.col-3 p {
+  font-size: 12px;
+  margin: 12px 0;
+  color: #777;
+}
+
+.testimonial .col-3 h3 {
+  font-weight: 600;
+  color: #555;
+  font-size: 16px;
+}
+.update img {
+  width: 30%;
+  display: inline-block;
+  padding: 20px;
 }
