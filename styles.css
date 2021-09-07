@@ -683,3 +683,8 @@ small {
   display: inline-block;
   padding: 20px;
 }
+
+#Updates {
+  margin-top: 50px;
+  background: radial-gradient(#faf896, rgb(7, 167, 207));
+}
